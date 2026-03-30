@@ -187,7 +187,7 @@ void RetropropagationArriere(){
         }
     }
 
-    // CALCUL DU GRADIENT DE LA COUCHE 1  (calulé séparement car sont entrée est entree[NmbEntree])
+    // CALCUL DU GRADIENT DE LA COUCHE 1  (calulé séparement car son entrée est entree[NmbEntree])
     for(int k=0; k<COUCHE_ORDRE[0].NmbNeuroneCouche; k++){ // LE NOMBRE DE NEURONE DE LA COUCHE A PARCOURIR
 
         COUCHE_ORDRE[0].NEURONE_ORDRE[k].DELTA = 0;
