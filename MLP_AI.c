@@ -223,7 +223,7 @@ int main(){
     srand(time(NULL));
     Initialisation();
 
-    FILE* fichierWikipedia = fopen("wiki.train.raw", "r"); // OUVERTURE LECTURE
+    FILE* fichierWikipedia = fopen("CORPUS.txt", "r"); // OUVERTURE LECTURE
     if(fichierWikipedia == NULL){
         perror("\nErreur lors de l'ouverture du fichier : ");
     }
